@@ -1,0 +1,7 @@
+version: '3'
+services:
+  redisAuth:
+    image: redis
+    container_name: redisAuth
+    ports:
+      - 6379:6379
